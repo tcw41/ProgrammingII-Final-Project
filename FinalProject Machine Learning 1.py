@@ -76,6 +76,7 @@ print(classification_report(y_test, y_pred))
 
 ##Part 10 The Streamlit part
 
+st.header("Predicting if you are a LinkedIn user")
 
 user_age=st.slider("What is your age", min_value=10, max_value=97,value= 18, step=1)
 user_gender= st.selectbox("What is your gender? If female select 1, if male select 0",options=[1,0])
