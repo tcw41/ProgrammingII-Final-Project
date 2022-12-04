@@ -46,7 +46,6 @@ ss= pd.DataFrame({
     
 }).dropna()
 
-ss
 
 #### Part 4 Setting Target Variables
 y = ss["sm_li"]
