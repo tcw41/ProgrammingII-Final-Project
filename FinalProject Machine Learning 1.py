@@ -98,7 +98,7 @@ probs = lr.predict_proba([person])
 
 st.subheader('Is this person a Linkedin user')
 st.write(predicted_class)
-
+    
 st.subheader('What is the probaility that this person is a Linkedin user')
 st.write(probs)
 
